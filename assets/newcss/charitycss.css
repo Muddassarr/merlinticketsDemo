@@ -1,0 +1,69 @@
+#home{
+    background-color:#663366;
+		background-image: url("../images/diagmonds.png");
+    color:#fff;
+}
+
+.casestudy{
+	width:100%;
+	display:block;
+	background:#7e71b1;
+	min-height: 200px;
+	color:#fff;
+	padding: 50px;
+}
+
+.card {
+  float: left;
+  width: 20%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.smallright a{
+    color:#fff;
+}
+
+#circularImg{
+           
+            -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeInDown3 {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateX(-1000px);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: translateX(0);
+            }
+         }
+         
+         @keyframes fadeInDown3 {
+            0% {
+               opacity: 0;
+               transform: translateX(-1000px);
+            }
+            100% {
+               opacity: 1;
+               transform: translateX(0);
+            }
+         }
+         
+         .fadeInDown3 {
+            -webkit-animation-name: fadeInDown3;
+            animation-name: fadeInDown3;
+         }

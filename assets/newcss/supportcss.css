@@ -1,0 +1,36 @@
+#home{
+    background-color:#663366;
+		background-image: url("../images/diagmonds.png");
+    color:#fff;
+}
+
+.casestudy{
+	width:100%;
+	display:block;
+	background:#663366;
+	min-height: 200px;
+	color:#fff;
+	padding: 50px;
+}
+
+.navbar-default {
+    background-color: #663366;
+    border:transparent;
+    padding-top: 13px;
+}
+
+.card {
+  float: left;
+  width: 20%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}

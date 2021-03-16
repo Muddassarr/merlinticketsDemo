@@ -1,0 +1,76 @@
+@media (min-width:992px) and (max-width:1199px){
+	body{
+		font-size:15px
+}
+}
+@media (max-width:991px){
+	html{
+		font-size:90%
+}
+}
+@media (max-width:767px){
+	html{
+		font-size:80%
+}
+	.navbar-default{
+		background-color:#636;
+		border:transparent;
+		padding:20px 0
+}
+	.navbar-default .navbar-toggle{
+		border-color:none;
+		background:#464646;
+		border:0
+}
+	.navbar-default .navbar-toggle:hover{
+		background:#000
+}
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color:#fff
+}
+	homepage-style .unique-apps h2{
+		font-size:20px
+}
+	.main-history .history-heading{
+		margin:30px 0;
+		text-align:center
+}
+	.homepage-style .unique-apps h2{
+		font-size:28px
+}
+	.main-history .history-img{
+		text-align:center
+}
+	.homepage-style .slider-area{
+		margin-top:30px
+}
+}
+@media (max-width:480px){
+	html{
+		font-size:65%
+}
+	.homepage-style .unique-apps h2{
+		font-size:20px
+}
+	.portfolio .portfolio-item h4{
+		font-size:12px
+}
+	.navbar-default .navbar-collapse,.navbar-default .navbar-form{
+		background:#463146;
+		border:0
+}
+	.homepage-style .slider-area{
+		margin-top:30px
+}
+	.heading .title h2{
+		font-size:29px;
+		font-weight:600;
+		text-transform:uppercase;
+		background:0 0;
+		color:#636;
+		padding:10px 60px;
+		display:inline;
+		line-height:40px;
+		box-shadow:0 0 0 0 rgba(0,0,0,.5)
+}
+}
